@@ -2,10 +2,39 @@
 Explica con tus palabras, las siguientes preguntas.
 
 - Que es un numero Natural?
+Los numeros naturales son aquellos que nos permiten contar los elementos de un conjunto.
 
 - Que es una estructura de datos?
+Las estructuras de datos son una forma de organizar los datos en la computadora, de tal manera 
+que nos permita realizar unas operaciones con ellas de forma muy eficiente. Por ejemplo, los arrays
+son un tipo de estructura de datos.
 
-- Que es map(), reduce(), filter() y ForEacH() 
+- Que es map(), reduce(), filter() y ForEacH():
+
+map(): El método Array.map() nos permite iterar sobre un arreglo, es decir, recorrerlo entero, y 
+modificar sus elementos utilizando una función callback. La función callback se ejecutará en cada uno de los 
+elementos del arreglo, y a su vez se le podra poner alguna especificacion para que se realice
+en cada uno de los elementos del arreglo. 
+
+reduce(): ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado 
+un único valor. Esta función recibe cuatro argumentos:
+Acumulador (acc), Valor Actual (cur), Índice Actual (idx), Array (src).
+El valor devuelto de la función reductora se asigna al acumulador, cuyo valor se recuerda en cada iteración 
+de la matriz y, en última instancia, se convierte en el valor final, único y resultante.
+
+filter(): crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+En otras palabra, consiste en filtrar uno o más elementos (un subconjunto) de una colección más grande de 
+elementos (un superconjunto) basándose en alguna condición/preferencia.
+
+ForEach(): ejecuta la función indicada una vez por cada elemento del array. Sirve para iterar a través 
+de una colección de arreglos y ejecutar un método callback por cada una de las iteraciones.
+
 
 - Explica una situacion en donde usarias cada una de las estructuras mencionadas anteriormente.
 
+map(): por ejemplo, si se desea multiplicar cada elemento del arreglo por 2 o cualquier numero.
+reduce(): para sumar todos los valores de un arreglo.
+filter(): para quitar o eliminar de nuestro arreglo aquellos elementos que cumplan la condicion que 
+queremos eliminar, por ejemplo eliminar la palabra "Red" de nuestro arreglo de colores.
+ForEach(): para eliminar algun elemento de un arreglo que no deseemos, esta funcion nos va a permitir
+recorrer ese arreglo y poder aplicar otra funcion para eliminar ese elemento. 
